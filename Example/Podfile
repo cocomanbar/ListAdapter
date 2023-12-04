@@ -1,0 +1,13 @@
+platform :ios, '13.0'
+
+target 'ListAdapter_Example' do
+  pod 'ListAdapter', :path => '../'
+  
+  
+  
+  target 'ListAdapter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
